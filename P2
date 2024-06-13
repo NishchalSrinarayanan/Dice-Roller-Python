@@ -3,7 +3,7 @@ print('How Many Dice Do You Want To Roll?:')
 x = int(input())  # Ensure input is converted to an integer
 for _ in range(x):
     die_face = randint(1, 6)
-    if die_face == :
+    if die_face == 1:
         print("-------------")
         print("|           |")
         print("|     x     |")
